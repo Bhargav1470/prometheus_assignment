@@ -10,6 +10,6 @@
     5.Create the Dashboards in Grafana on top of the metrics exported by adding the Prometheus as a Datasource.
 
 Ans: Step 1: Set up Docker Environment <br>
-     + Install Docker and Docker Compose if you haven't already. <br>
+     +    Install Docker and Docker Compose if you haven't already. <br>
      Step 2: Create Flask Application<br>
      Create a Flask application with metrics instrumentation. Create app.py file and add the python code into that file.<br> 
