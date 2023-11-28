@@ -15,7 +15,7 @@ Install Docker and Docker Compose if you haven't already. <br>
 <h3>Step 2: Create Application<br></h3>
 Create a Flask application with metrics instrumentation. Create app.py file and add the python code into that file.<br> 
 <h3>Step 3: Create Docker Compose File. <br></h3>
-Create a docker-compose.yml file in a directory for your project.<br>
+Create a docker-compose.yml file in a project directory.<br>
 <h3>Step 4: Configure Prometheus <br></h3>
 Add Prometheus Service:<br>
 &nbsp &nbsp 1. Define the Prometheus service in the docker-compose.yml file.<br>
@@ -23,7 +23,7 @@ Add Prometheus Service:<br>
 &nbsp &nbsp 3. Mount the Prometheus configuration file (prometheus.yml) as a volume.<br>
 Create prometheus.yml Configuration:<br></h5>
 &nbsp &nbsp 1. Configure prometheus.yml to define jobs that scrape metrics from your application.<br>
-&nbsp &nbsp 2. Define the scrape_configs for your application's metrics endpoint.<br>
+&nbsp &nbsp 2. Define the scrape_configs for application's metrics endpoint.<br>
 <h3>Step 5: Configure Grafana <br></h3>
 Add Grafana Service:<br>
 &nbsp &nbsp 1. Define the Grafana service in the docker-compose.yml file.<br>
@@ -35,7 +35,7 @@ Add Grafana Service:<br>
 <h3>Step 7: Validate Configuration<br></h3>
 Access Prometheus UI:<br>
 &nbsp &nbsp 1. Go to http://localhost:9090 to access the Prometheus UI.<br>
-&nbsp &nbsp 2. Check the Status > Targets section to verify if your application's target is up and scraped successfully.<br>
+&nbsp &nbsp 2. Check the Status > Targets section to verify if application's target is up and scraped successfully.<br>
 <h3>Step 8: Set up Grafana Dashboard<br></h3>
 Access Grafana UI:<br>
 &nbsp &nbsp Visit http://localhost:3000 to access the Grafana UI.<br>
@@ -45,7 +45,7 @@ Add Prometheus as a Datasource:<br>
 Create Dashboards:<br>
 &nbsp &nbsp  Go to Create > Dashboard.<br>
 &nbsp &nbsp  Add a new panel and select the Prometheus data source.<br>
-&nbsp &nbsp  Use queries to visualize the metrics exported by your application.<br>
+&nbsp &nbsp  Use queries to visualize the metrics exported by the application.<br>
 <h3>Step 9: Select and Run Queries<br></h3>
 Query for CPU Usage<br>
 &nbsp &nbsp Under the "Metric" field, select 'flask_cpu_usage_percent'.<br>
