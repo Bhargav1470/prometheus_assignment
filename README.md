@@ -51,17 +51,17 @@ Query for CPU Usage<br>
 &nbsp &nbsp Under the "Metric" field, select 'flask_cpu_usage_percent'.<br>
 &nbsp &nbsp Click "Run queries" to see the visualization on the dashboard.<br>
 <h3>Screenshots<br></h3>
-&nbsp &nbsp Prometheus Targets Page<br>
+Prometheus Targets Page<br>
 
 ![image](https://github.com/Bhargav1470/prometheus_assignment/assets/90518660/623d187e-f982-4e5f-b08d-cded3e32f313)
 
-&nbsp &nbsp Dashboard in Grafana: Visualizing Flask Application Metrics<br>
+Dashboard in Grafana: Visualizing Flask Application Metrics<br>
 ![image](https://github.com/Bhargav1470/prometheus_assignment/assets/90518660/0ab2aa10-a378-4e3b-847a-cf1aeb4d1047)
 
 ![image](https://github.com/Bhargav1470/prometheus_assignment/assets/90518660/346dfa0d-697a-43a0-bec5-1bb97ced9f1a)
 
 
-&nbsp &nbsp Metrics
+Metrics
 ![image](https://github.com/Bhargav1470/prometheus_assignment/assets/90518660/ce92425a-c10e-4703-b80a-495339aa2f8f)
 
         
