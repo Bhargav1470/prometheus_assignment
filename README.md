@@ -56,7 +56,7 @@ Prometheus Targets Page<br>
 ![image](https://github.com/Bhargav1470/prometheus_assignment/assets/90518660/623d187e-f982-4e5f-b08d-cded3e32f313)
 
 Dashboard in Grafana: Visualizing Flask Application Metrics<br>
-![image](https://github.com/Bhargav1470/prometheus_assignment/assets/90518660/0ab2aa10-a378-4e3b-847a-cf1aeb4d1047)
+![image](https://github.com/Bhargav1470/prometheus_assignment/assets/90518660/0ab2aa10-a378-4e3b-847a-cf1aeb4d1047)<br>
 
 ![image](https://github.com/Bhargav1470/prometheus_assignment/assets/90518660/346dfa0d-697a-43a0-bec5-1bb97ced9f1a)
 
